@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Void Server Verification</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📜 Void Server Verification</h1>
+    <p>Welcome! Please read the Constitution & Law Code before verifying.</p>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav>
+    <button class="tab-btn active" data-tab="home">Home</button>
+    <button class="tab-btn" data-tab="constitution">Constitution</button>
+    <button class="tab-btn" data-tab="rights">Member Rights</button>
+    <button class="tab-btn" data-tab="classes">Law Classes</button>
+    <button class="tab-btn" data-tab="vocab">Vocabulary</button>
+  </nav>
+
+  <main>
+    <!-- Home Tab -->
+    <section class="tab-content active" id="home">
+      <h2>Welcome to Void</h2>
+      <p>
+        Before gaining access, please read the full rules and confirm your understanding.
+        You can navigate using the tabs above to view the Constitution, member rights, law classes, and definitions.
+      </p>
+    </section>
+
+    <!-- Constitution Tab -->
+    <section class="tab-content" id="constitution">
+      <h2>Constitution & Law Code</h2>
+      <p><strong>Version:</strong> v2026.01.13</p>
+      <p>Section 0 – Purpose</p>
+      <ul>
+        <li>Protect members from harassment, abuse, and disruptive behavior.</li>
+        <li>Provide clear, enforceable rules with no loopholes.</li>
+        <li>Maintain a safe, teen-appropriate environment.</li>
+        <li>Ensure consistent, fair, and transparent enforcement by staff.</li>
+        <li>All members must read and understand this document. Ignorance of rules is not an excuse.</li>
+      </ul>
+      <p>... (you can insert full Sections 1–7 here or link to PDF)</p>
+      <a href="assets/Void_Constitution_v2026.01.13.pdf" target="_blank" class="download-btn">Download PDF</a>
+    </section>
+
+    <!-- Member Rights Tab -->
+    <section class="tab-content" id="rights">
+      <h2>Member Rights</h2>
+      <ol>
+        <li>Right to Respect</li>
+        <li>Right to Voice</li>
+        <li>Right to Safety</li>
+        <li>Right to Privacy</li>
+        <li>Right to Fair Enforcement</li>
+        <li>Right to Participation</li>
+        <li>Right to Accountability</li>
+        <li>Right to Education</li>
+        <li>Right to Digital Safety</li>
+        <li>Right to Inclusion</li>
+        <li>Right to Consent</li>
+        <li>Right to Appeal</li>
+      </ol>
+    </section>
+
+    <!-- Law Classes Tab -->
+    <section class="tab-content" id="classes">
+      <h2>Law Classes & Penalties</h2>
+      <table>
+        <thead>
+          <tr><th>Class</th><th>Description</th><th>Minimum Penalty</th><th>Escalation</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Minor Offense</td><td>Mute</td><td>Repeated → Class 2</td></tr>
+          <tr><td>2</td><td>Moderate Offense</td><td>Warning</td><td>Repeated → Class 3</td></tr>
+          <tr><td>3</td><td>Severe Offense</td><td>Kick/Ban</td><td>Extreme/Recurrent → Permanent Ban</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Vocabulary Tab -->
+    <section class="tab-content" id="vocab">
+      <h2>Vocabulary / Definitions</h2>
+      <ul>
+        <li><strong>Constructive Criticism:</strong> Feedback intended to improve behavior/content, delivered respectfully.</li>
+        <li><strong>Harassment:</strong> Repeated, targeted, or deliberate behavior intended to annoy, intimidate, or harm a member.</li>
+        <li><strong>Spam:</strong> Repeated messages, images, links, or emojis that disrupt conversation flow.</li>
+        <li><strong>Minor / Moderate / Severe Offense:</strong> See Law Classes.</li>
+        <li><strong>Spoiler:</strong> Information revealing plot/outcome; must be tagged.</li>
+        <li><strong>Role Abuse:</strong> Misusing roles or permissions to bypass rules.</li>
+        <li><strong>NSFW:</strong> Any content not safe for teens; strictly forbidden.</li>
+        <li><strong>Loophole:</strong> Attempts to avoid enforcement by exploiting vague language.</li>
+      </ul>
+    </section>
+
+    <!-- Acknowledgment Section -->
+    <section id="acknowledgment">
+      <h2>Acknowledgment</h2>
+      <p>
+        By proceeding, I acknowledge that I am entering Void under the terms of its Constitution & Law Code. I understand that the Constitution defines member rights, the structure of rule classes and corresponding penalties, and the responsibilities of staff to enforce rules fairly. I agree that all members are expected to follow these rules, and that enforcement actions may escalate based on repeated or severe violations. I also understand that the Constitution may be updated over time, and it is my responsibility to read and accept any updated version. By verifying, I confirm my agreement to abide by the Constitution and recognize that my continued participation in the server constitutes acceptance of its clauses. Finally, I confirm that I am under 18 years of age and acknowledge that this server is teen-appropriate.
+      </p>
+      <label>
+        <input type="checkbox" id="agree-checkbox"> I have read and agree to the rules
+      </label>
+      <button id="verify-btn" disabled onclick="window.location.href='https://discord.com/channels/1412615099646218342/1412826031953281175';">
+        Start Verification
+      </button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

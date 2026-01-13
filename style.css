@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f7f7f7; color: #222; }
+header { background: #222; color: #fff; padding: 1rem; text-align: center; }
+nav { display: flex; justify-content: center; background: #444; }
+nav button { background: none; border: none; color: #fff; padding: 0.8rem 1.2rem; cursor: pointer; }
+nav button.active { background: #666; }
+main { padding: 1rem; max-width: 900px; margin: auto; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+table, th, td { border: 1px solid #999; }
+th, td { padding: 0.5rem; text-align: center; }
+.download-btn { display: inline-block; margin-top: 1rem; padding: 0.5rem 1rem; background: #222; color: #fff; text-decoration: none; border-radius: 5px; }
+#acknowledgment { margin-top: 2rem; background: #eee; padding: 1rem; border-radius: 5px; }
+#verify-btn { margin-top: 1rem; padding: 0.7rem 1.2rem; cursor: pointer; background: #222; color: #fff; border: none; border-radius: 5px; }
+#verify-btn:disabled { background: #999; cursor: not-allowed; }
